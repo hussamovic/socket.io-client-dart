@@ -33,7 +33,7 @@ Map decode(qs) {
   for (var i = 0, l = pairs.length; i < l; i++) {
     var pair = pairs[i].split('=');
     if (pair.length < 1) return qry;
-    qry[Uri.decodeComponent(pair[0])] = Uri.decodeComponent(pair[1]);
+   // qry[Uri.decodeComponent(pair[0])] = Uri.decodeComponent(pair[1]);
   }
   return qry;
 }
