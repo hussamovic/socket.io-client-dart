@@ -11,7 +11,7 @@
 /// Copyright (C) 2017 Potix Corporation. All Rights Reserved.
 ///
 
-library socket_io_client;
+library socket_io_client_custom;
 
 import 'package:logging/logging.dart';
 import 'package:socket_io_client/src/socket.dart';
